@@ -1,0 +1,130 @@
+@media screen and (min-width: 0) and (max-width: 750px), only screen and (max-device-width: 750px) and (min-device-width: 0px) {
+
+    body {
+        min-width: 650px;
+    }
+    
+	.header-logo, .menu, .header-desc, .items-wrapper, .items-block, .feedback-block, .about-us, .footer-wrapper {
+    	width: 100%;
+    	margin: 0;
+	}
+
+    .feedback, .header-wrapper, .items-arrow, .advantages, .advant-header, .about-header, .about-block, .footer-menu {
+        display: none;
+    }
+
+    .header-main {
+    	width: 100%;
+    	position: static;
+    }
+    
+    .logo {
+        width: 50%;
+    }
+    
+    .logo img {
+        width: 60%;
+        margin-left: 10%;
+    }
+    
+    .contacts {
+        display: block;
+        width: 50%;
+        text-align: center;
+    }
+ 
+    .contacts p {
+        font-size: 20px;
+    }
+    
+    .menu {
+        display: none;
+    }
+    
+    .menu a {
+        display: block;
+        font-size: 16px;
+        padding: 5px;
+        color: #fff;
+        text-align: center;
+    }
+    
+    .menu a:nth-child(6):before {
+        content: none;
+    }
+    
+    .menu a:nth-child(6):hover:before {
+        content: none;
+    }
+
+    .menu a:nth-child(7):before {
+        content: none;
+    }
+    
+    .menu a:nth-child(7):hover:before {
+        content: none;
+    }
+    
+    .menu-box {
+        background-color: #1fba0a;
+    }
+    
+    .menu-adaptive {
+        display: block;
+    }
+    
+    .items-header {
+        text-align: center;
+    }
+    
+    .items-block {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    .action-block {
+        margin-bottom: 20px;
+    }
+    
+    .item {
+    	width: 35%;
+        margin-top: 20px;
+    }
+    
+    .newItemHeader {
+        justify-content: center;
+    }
+    
+    .feedback-block {
+        justify-content: center;
+    }
+    
+    .feedback-box {
+        width: 80%;
+        text-align: center;
+    }
+    
+    #subm {
+        display: block;
+    }
+    
+    #subm input {
+        display: block;
+        margin: 20px auto;
+        text-align: center;
+    }
+    
+    .copyright, .spritesheet {
+        margin: 20px 0 20px 0;
+    }
+    
+    .copyright {
+        width: 80%;
+        justify-content: space-around;
+    }
+    
+    .spritesheet {
+        width: 20%;
+        justify-content: flex-start;
+    }
+}
